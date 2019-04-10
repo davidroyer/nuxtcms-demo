@@ -1,5 +1,4 @@
 ---
-tags:
   - tag 1
   - tag 2
 ---
@@ -10,8 +9,11 @@ _here be dragons_
 
 - **[pica](https://nodeca.github.io/pica/demo/)** - high quality and fast image
   resize in browser.
+
 - **[babelfish](https://github.com/nodeca/babelfish/)** - developer friendly
   i18n with plurals support and easy syntax.
+
+- **[nuxtcms](https://github.com/davidroyer/nuxtcms/)** - the link to the the repo for this module
 
 You will like those projects!
 
@@ -19,8 +21,6 @@ You will like those projects!
 
 - item asssss
 - item
-- item 12dsssss
-- item 12dsssss
 - item 2
   - item abde
 - item
@@ -109,7 +109,7 @@ Block code "fences"
 </template>
 ```
 
-Syntax highlighting
+Syntax highlighting ta
 
 ```js
 var foo = function(bar) {

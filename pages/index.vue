@@ -2,13 +2,13 @@
 <template>
   <b-container fluid>
     <b-container>
-      <b-carousel id="carousel1" controls indicators :interval="3000">
+      <!-- <b-carousel id="carousel1" controls indicators :interval="3000">
         <div v-for="(carouselImg, index) in carouselImgs" :key="index">
           <a :href="carouselImg.href">
             <b-carousel-slide :img-src="carouselImg.img"> </b-carousel-slide>
           </a>
         </div>
-      </b-carousel>
+      </b-carousel> -->
       <br />
       <b-card-group columns>
         <b-card

@@ -1,9 +1,7 @@
 <template>
-  <div>
+  <div id="app-wrapper">
     <AppHeader />
-    <br />
-    <nuxt />
-    <br />
+    <Nuxt id="view" class="container" />
     <AppFooter />
   </div>
 </template>

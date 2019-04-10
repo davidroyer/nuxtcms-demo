@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-button variant="primary" to="/blog"> Back To All Posts</b-button>
-    <h1 v-text="post.title" />
+    <h1 class="page-title mb-5 mt-2 pt-3 text-center" v-text="post.title" />
     <img v-if="post.image" :src="imagePath" />
     <article v-html="post.html" />
   </div>

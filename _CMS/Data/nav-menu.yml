@@ -1,0 +1,19 @@
+index:
+    to: /
+    label: Home
+
+articles:
+    label: Blog
+    to: /blog
+
+projects:
+    label: Projects
+    to: /projects
+
+# about:
+#     label: About
+#     to: /about
+
+# contact:
+#     label: Contact
+#     to: /contact

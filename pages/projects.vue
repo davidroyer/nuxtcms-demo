@@ -1,6 +1,6 @@
 <!-- 项目首页 -->
 <template>
-  <b-container fluid>
+  <div fluid>
     <b-container class="projectTop" @click="toProjectHome">
       <h1>My Projects</h1>
       <p class="lead">
@@ -11,7 +11,7 @@
 
     <br />
     <nuxt-child />
-  </b-container>
+  </div>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-container class="blogTop" @click="$router.push('/blog')">
-      <h1>Blog Posts</h1>
+      <h1 class="page-title mb-5 mt-2 pt-3 text-center ">Blog Posts</h1>
       <p class="lead">
         This is my history post. You can click here to go back to the project
         list.

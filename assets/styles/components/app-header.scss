@@ -1,0 +1,26 @@
+header {
+  // display: flex;
+  // flex-flow: row wrap;
+  // align-items: center;
+  // justify-content: space-between;
+  // margin-top: 1em;
+
+  nav {
+    margin-left: auto;
+  }
+
+  .nav {
+    align-items: center;
+
+    &-link {
+      &.active {
+        &:focus,
+        &:hover {
+          background: #212529c4 !important;
+          color: white;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

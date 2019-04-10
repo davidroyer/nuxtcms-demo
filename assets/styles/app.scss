@@ -1,0 +1,54 @@
+#app-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  // align-content: space-between;
+  height: 100vh;
+  align-content: flex-start;
+}
+
+#view {
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+  flex-direction: column;
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+
+}
+
+
+
+
+// LAYOUT
+
+.links {
+  padding-top: 15px;
+}
+
+.render-result {
+  font-weight: 500;
+
+  .subtitle {
+    font-size: 26px;
+    font-weight: 600;
+    color: #007bff;
+  }
+}
+
+#toggle-login {
+  margin-left: 1em;
+}
+
+#view,
+footer,
+header {
+  flex-basis: 100%;
+}
+
+
+.hero-image {
+  max-width: 100%;
+  max-height: 450px;
+  display: block;
+  margin: 1em auto;
+}
