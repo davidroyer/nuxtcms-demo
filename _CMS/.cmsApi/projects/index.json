@@ -1,0 +1,32 @@
+{
+  "project1": {
+    "title": "Project1",
+    "slug": "project1",
+    "tags": [],
+    "html": "<p><strong>Info for Project 1</strong></p>\n<pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token keyword\">import</span> Vue <span class=\"token keyword\">from</span> <span class=\"token string\">'vue'</span>\n<span class=\"token keyword\">import</span> BootstrapVue <span class=\"token keyword\">from</span> <span class=\"token string\">'bootstrap-vue'</span>\n\nVue<span class=\"token punctuation\">.</span><span class=\"token function\">use</span><span class=\"token punctuation\">(</span>BootstrapVue<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n</code></pre>\n"
+  },
+  "project2": {
+    "title": "Project2",
+    "slug": "project2",
+    "tags": [],
+    "html": "<p><strong>Info for Project 2</strong></p>\n<pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token keyword\">import</span> Vue <span class=\"token keyword\">from</span> <span class=\"token string\">'vue'</span>\n<span class=\"token keyword\">import</span> BootstrapVue <span class=\"token keyword\">from</span> <span class=\"token string\">'bootstrap-vue'</span>\n\nVue<span class=\"token punctuation\">.</span><span class=\"token function\">use</span><span class=\"token punctuation\">(</span>BootstrapVue<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n</code></pre>\n"
+  },
+  "project3": {
+    "title": "Project3",
+    "slug": "project3",
+    "tags": [],
+    "html": "<p><strong>Info for Project 3</strong></p>\n<p><em>underline</em></p>\n<ul>\n<li>list item 1</li>\n<li>list item 2</li>\n<li>list item 3</li>\n</ul>\n<pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token keyword\">import</span> Vue <span class=\"token keyword\">from</span> <span class=\"token string\">'vue'</span>\n<span class=\"token keyword\">import</span> BootstrapVue <span class=\"token keyword\">from</span> <span class=\"token string\">'bootstrap-vue'</span>\n\nVue<span class=\"token punctuation\">.</span><span class=\"token function\">use</span><span class=\"token punctuation\">(</span>BootstrapVue<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n</code></pre>\n"
+  },
+  "project4": {
+    "title": "Project4",
+    "slug": "project4",
+    "tags": [],
+    "html": "<h1 id=\"project4\">Project4</h1>\n<pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token keyword\">import</span> Vue <span class=\"token keyword\">from</span> <span class=\"token string\">'vue'</span>\n<span class=\"token keyword\">import</span> BootstrapVue <span class=\"token keyword\">from</span> <span class=\"token string\">'bootstrap-vue'</span>\n\nVue<span class=\"token punctuation\">.</span><span class=\"token function\">use</span><span class=\"token punctuation\">(</span>BootstrapVue<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n</code></pre>\n"
+  },
+  "project5": {
+    "title": "Project5",
+    "slug": "project5",
+    "tags": [],
+    "html": "<h1 id=\"project5\">Project5</h1>\n<pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token keyword\">import</span> Vue <span class=\"token keyword\">from</span> <span class=\"token string\">'vue'</span>\n<span class=\"token keyword\">import</span> BootstrapVue <span class=\"token keyword\">from</span> <span class=\"token string\">'bootstrap-vue'</span>\n\nVue<span class=\"token punctuation\">.</span><span class=\"token function\">use</span><span class=\"token punctuation\">(</span>BootstrapVue<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n</code></pre>\n"
+  }
+}

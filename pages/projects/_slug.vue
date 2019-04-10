@@ -1,0 +1,16 @@
+<!-- 项目子页 -->
+<template>
+  <b-container>
+    <h1 v-text="project.title" />
+    <div v-html="project.html" />
+  </b-container>
+</template>
+
+<script>
+export default {
+  asyncData({ $cmsApi, params }) {
+    const project = $cmsApi.get('projects', params.slug)
+    return { project }
+  }
+}
+</script>
