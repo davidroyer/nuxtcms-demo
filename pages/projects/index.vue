@@ -5,7 +5,7 @@
       <nuxt-link
         v-for="project in projects"
         :key="project.slug"
-        :to="`projects/${project.slug}`"
+        :to="`/projects/${project.slug}`"
       >
         <b-card
           :title="project.title"

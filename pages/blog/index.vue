@@ -14,7 +14,7 @@
         <nuxt-link
           v-for="post in blogPosts"
           :key="post.slug"
-          :to="`blog/${post.slug}`"
+          :to="`/blog/${post.slug}`"
         >
           <b-card
             :title="post.title"
