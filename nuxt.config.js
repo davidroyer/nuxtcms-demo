@@ -1,4 +1,5 @@
 import pkg from './package'
+// console.log('update')
 
 export default {
   mode: 'universal',
