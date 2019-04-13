@@ -9,7 +9,9 @@
     >
       <b-container>
         <b-navbar-brand to="/" exact>
-          <h3><span class="fw-heavy">NuxtCMS</span> <small>Demo</small></h3>
+          <h3 class="navbar-title">
+            <span class="navbar-title-nuxtcms">NuxtCMS</span> Demo
+          </h3>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -37,9 +39,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .nav-bar
 .nav-link {
   font-size: 1.2em;
   font-weight: 100;
+}
+.navbar-title {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  &-nuxtcms {
+    margin-right: 5px;
+  }
 }
 </style>

@@ -3,7 +3,7 @@
     <b-button variant="primary" to="/blog"> Back To All Posts</b-button>
     <h1 class="page-title mb-5 mt-2 pt-3 text-center" v-text="post.title" />
     <img v-if="post.image" :src="imagePath" />
-    <article v-html="post.html" />
+    <article class="markdown-body" v-html="post.html" />
   </div>
 </template>
 
@@ -34,9 +34,23 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 img {
   max-width: 800px;
+}
+article {
+  width: 100%;
+
+  &.markdown-body {
+    a {
+      color: var(--green);
+    }
+  }
+
+  .custom-block p {
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
 }
 </style>
 <style src="@droyer/nuxtcms/lib/assets/blog-styles.css"></style>

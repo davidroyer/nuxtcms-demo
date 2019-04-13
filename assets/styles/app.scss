@@ -7,18 +7,10 @@
 }
 
 #view {
-  display: flex;
-  // align-items: center;
-  // justify-content: center;
-  flex-direction: column;
   margin-top: 1.5em;
   margin-bottom: 2.5em;
   min-height: 65vh;
-  // margin-top: 2.5em;
 }
-
-
-
 
 // LAYOUT
 
@@ -45,7 +37,6 @@ footer,
 header {
   flex-basis: 100%;
 }
-
 
 .hero-image {
   max-width: 100%;
