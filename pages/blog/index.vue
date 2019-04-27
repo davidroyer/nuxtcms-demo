@@ -10,26 +10,28 @@
 
     <br />
     <b-container>
-      <b-card-group columns>
-        <nuxt-link
+      <b-card-group deck>
+        <b-card
           v-for="post in blogPosts"
           :key="post.slug"
-          :to="`/blog/${post.slug}`"
+          :title="post.title"
+          :img-src="handlePostImage(post)"
+          img-alt="Img"
+          img-top
+          class="post-card"
         >
-          <b-card
-            :title="post.title"
-            :img-src="post.img"
-            img-alt="Img"
-            img-top
-            class="project-card"
-          >
-            <p class="card-text" v-html="post.description"></p>
-            <small class="text-muted" v-html="post.createTime"></small>
-          </b-card>
-        </nuxt-link>
+          <!-- <nuxt-link :to="`/blog/${post.slug}`"> -->
+          <p class="card-text" v-html="post.description"></p>
+          <small class="text-muted" v-html="post.createTime"></small>
+          <!-- </nuxt-link> -->
+
+          <b-button :to="`/blog/${post.slug}`" variant="outline-primary"
+            >View Post
+          </b-button>
+        </b-card>
       </b-card-group>
     </b-container>
-    <nuxt-child />
+    <!-- <nuxt-child /> -->
   </b-container>
 </template>
 
@@ -37,6 +39,22 @@
 export default {
   asyncData({ $cmsApi }) {
     return { blogPosts: $cmsApi.get('blog') }
+  },
+  methods: {
+    handlePostImage(post) {
+      return post.image
+        ? require(`@/assets/images/${post.image}`)
+        : require(`@/assets/images/post-2-hero.jpg`)
+    }
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.card-body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+</style>

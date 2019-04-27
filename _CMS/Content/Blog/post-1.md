@@ -1,11 +1,118 @@
 ---
+image: post-1-hero.jpg
+description: Post 1 description to use as as excerpt.
+tags:
   - tag 1
   - tag 2
 ---
 
-::: warning
-_here be dragons_
+## Heading Level 2 With Class {.style-me}
+
+### heading level 3
+
+paragraph {data-toggle=modal}
+
+`inline code test`
+
+## Syntax Highlighting Examples
+
+A few examples of nice looking code
+
+### JavaScript
+
+```js
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue);
+```
+
+```js
+var foo = function(bar) {
+  return bar++
+}
+
+console.log(foo(5))
+```
+
+### Vue Template
+
+```html
+<template>
+  <div>
+    <h1 v-text="title" />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      title: "The Title"
+    }
+  }
+}
+</script>
+```
+
+### JSON
+
+```json
+{
+  "post": true
+}
+```
+
+### CSS
+
+```css
+.card {
+  background: #222;
+}
+```
+
+
+## Custom Containers like
+
+[Markdown-It Plugin Documenation](https://github.com/markdown-it/markdown-it-container) | [VuePress's Containers Documenation](https://vuepress.vuejs.org/guide/markdown.html#custom-containers)
+
+:::warning
+Something special here! :computer: :key: :smile:
 :::
+
+:::tip
+Something special here! :computer: :key: :smile:
+:::
+
+# heading 1sss
+
+## heading 2ssss
+
+# heading 2
+
+- item 1
+- item 2
+  - item 2a
+  - item 2b
+- item 3
+
+::: tip
+This is a tip
+:::
+
+::: warning
+This is a warninga
+:::
+
+::: danger
+This is a dangerous warning
+:::
+
+::: danger STOP
+Danger zone, do not proceed!
+:::
+
+[I'm an inline-style link](https://www.google.com)
 
 - **[pica](https://nodeca.github.io/pica/demo/)** - high quality and fast image
   resize in browser.
@@ -98,26 +205,7 @@ Indented code
     line 2 of code
     line 3 of code
 
-Block code "fences"
 
-```jsx
-<template>
-  <div>
-    <h1 v-text="project.title" />
-    <div v-html="project.html" />
-  </div>
-</template>
-```
-
-Syntax highlighting ta
-
-```js
-var foo = function(bar) {
-  return bar++
-}
-
-console.log(foo(5))
-```
 
 ## Tables
 

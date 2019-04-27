@@ -54,6 +54,12 @@ $web-font-path: "https://fonts.googleapis.com/css?family=News+Cycle:400,700" !de
 
 // Typography ==================================================================
 
+h1, .h1 { @include font-size($h1-font-size); !important}
+h2, .h2 { @include font-size($h2-font-size); }
+h3, .h3 { @include font-size($h3-font-size); }
+h4, .h4 { @include font-size($h4-font-size); }
+h5, .h5 { @include font-size($h5-font-size); }
+h6, .h6 { @include font-size($h6-font-size); }
 // Tables ======================================================================
 
 // Forms =======================================================================

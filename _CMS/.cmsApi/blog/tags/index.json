@@ -1,58 +1,26 @@
 {
   "tag 1": [
     {
-      "title": "Example 2 Custom Title",
-      "slug": "page-2",
+      "title": "Post 1",
+      "slug": "post-1",
       "tags": [
         "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
+        "tag 2"
       ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
+      "image": "post-1-hero.jpg",
+      "description": "Post 1 description to use as as excerpt."
     }
   ],
   "tag 2": [
     {
-      "title": "Example 2 Custom Title",
-      "slug": "page-2",
+      "title": "Post 1",
+      "slug": "post-1",
       "tags": [
         "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
+        "tag 2"
       ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
-    }
-  ],
-  "tag 3": [
-    {
-      "title": "Example 2 Custom Title",
-      "slug": "page-2",
-      "tags": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
-    }
-  ],
-  "tag 4": [
-    {
-      "title": "Example 2 Custom Title",
-      "slug": "page-2",
-      "tags": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
+      "image": "post-1-hero.jpg",
+      "description": "Post 1 description to use as as excerpt."
     }
   ]
 }

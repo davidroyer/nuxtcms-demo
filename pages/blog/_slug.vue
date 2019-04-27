@@ -2,16 +2,16 @@
   <div>
     <b-button variant="primary" to="/blog"> Back To All Posts</b-button>
     <h1 class="page-title mb-5 mt-2 pt-3 text-center" v-text="post.title" />
-    <img v-if="post.image" :src="imagePath" />
-    <article class="markdown-body" v-html="post.html" />
+    <img v-if="post.image" class="post-image" :src="postImage" />
+    <article class="article-content" v-html="post.html" />
   </div>
 </template>
 
 <script>
 export default {
   computed: {
-    imagePath() {
-      return require(`~/assets/${this.post.image}`)
+    postImage() {
+      return require(`@/assets/images/${this.post.image}`)
     }
   },
   asyncData({ $cmsApi, params }) {
@@ -37,16 +37,37 @@ export default {
 <style lang="scss">
 img {
   max-width: 800px;
+
+  &.post-image {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3rem;
+    margin-top: -1.75rem;
+  }
 }
 article {
   width: 100%;
 
-  &.markdown-body {
+  &.article-content {
     a {
       color: var(--green);
     }
   }
+  h1 {
+    margin-top: 3rem;
+  }
 
+  h2 {
+    margin-top: 2.75rem;
+  }
+
+  h3 {
+    margin-top: 1.5rem;
+  }
   .custom-block p {
     margin-bottom: 16px;
     margin-top: 16px;

@@ -1,8 +1,7 @@
 **Info for Project 2**
 
-```jsx
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
+*underline*
 
-Vue.use(BootstrapVue);
-```
+- list item 1
+- list item 2
+- list item 3
