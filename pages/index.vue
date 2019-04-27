@@ -6,7 +6,7 @@
       <h2 class="card-text">
         The code for this demo is available on Github
       </h2>
-      <b-button to="https://github.com/davidroyer/nuxtcms-demo">
+      <b-button href="https://github.com/davidroyer/nuxtcms-demo">
         NuxtCMS Demo Repo</b-button
       >
       <!-- <b-card title="Github Repo">
